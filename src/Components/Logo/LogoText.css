@@ -1,0 +1,21 @@
+colorO{
+  color: #ff7143;
+}
+colorW{
+  color: #ffffff;
+}
+
+.Logo-format{
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-size: 49px;
+    font-weight: 200;
+    line-height: 0;
+    letter-spacing: 0;
+    word-spacing: normal;
+    width: 263px;
+    height: 58px;
+    margin-top: 69px;
+    margin-left: 170px;
+    position: absolute;
+}
