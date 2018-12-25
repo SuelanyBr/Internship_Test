@@ -1,4 +1,5 @@
 import React, { Component} from 'react';
+//import { Button } from 'reactstrap';
 import Logo from '../Components/Logo/LogoText';
 import './App.css'
 import Menu from "../Components/Menu/Menu";
@@ -10,8 +11,10 @@ class App extends Component {
         <div  className="App">
             <Logo/>
             <div>
-                <Menu welcome="Welcome To Test" msg2="marketing, development, design."/>
+                <Menu welcome="Welcome To Test" msg2="marketing, development, design." />
             </div>
+
+
         </div>
     );
   }

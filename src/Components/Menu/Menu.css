@@ -1,19 +1,45 @@
 .Text1{
-    font-size: 29px;
-    font-weight: 200;
+    font-size: 31px;
+    font-weight: 400;
     width: 231px;
     height: 38px;
-    margin: 370px 1168px 521px 562px;
+    margin-top: 370px;
+    margin-left: 521px;
     position: absolute;
+    text-align: left;
+    color: white;
 }
 
 .Text2{
-    font-size: 40px;
-    font-weight: lighter;
+    font-size: 43px;
+    font-weight: 200;
     width: 596px;
     height: 51px;
+    margin-top: 572px;
+    margin-left: 338px;
+    margin-right: 986px;
     position: absolute;
-    margin: 572px 986px 338px 346px;
+    text-align: left;
+    color: white;
+}
 
+.Menu-Border{
+    width: 552.99px;
+    height: 104.25px;
+    margin-top: 439px;
+    margin-left: 360px;
+    margin-right: 1007px;
+    position: absolute;
+    border: 1px solid white;
+}
 
+.text3{
+    font-size: 49px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+variante{
+    font-weight: 500;
 }
