@@ -1,0 +1,27 @@
+body {
+    background: #5B78D7;
+}
+
+.container{
+
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+}
+
+.local-face{
+    position: absolute;
+    width: 44.33px;
+    height: 44.33px;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+        left: 50%;
+        margin-left: -512px;   /* 50% */
+    }
+}

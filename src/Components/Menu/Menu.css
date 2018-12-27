@@ -1,45 +1,28 @@
-.Text1{
-    font-size: 31px;
-    font-weight: 400;
-    width: 231px;
-    height: 38px;
-    margin-top: 370px;
-    margin-left: 521px;
-    position: absolute;
-    text-align: left;
-    color: white;
+/**
+   Customizing Menu Colors
+ */
+
+.navbar-custom {
+    background-color: #6782DA;
 }
 
-.Text2{
-    font-size: 43px;
-    font-weight: 200;
-    width: 596px;
-    height: 51px;
-    margin-top: 572px;
-    margin-left: 338px;
-    margin-right: 986px;
-    position: absolute;
-    text-align: left;
-    color: white;
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #ffffff;
 }
 
-.Menu-Border{
-    width: 552.99px;
-    height: 104.25px;
-    margin-top: 439px;
-    margin-left: 360px;
-    margin-right: 1007px;
-    position: absolute;
-    border: 1px solid white;
+.navbar-custom .navbar-nav .nav-link{
+    color: #fff;
 }
 
-.text3{
-    font-size: 49px;
-    font-weight: 400;
-    text-align: center;
-    color: white;
+colorO.navbar-custom{
+    color: #ff7143;
 }
 
-variante{
-    font-weight: 500;
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
 }
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
