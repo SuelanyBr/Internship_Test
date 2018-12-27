@@ -1,19 +1,20 @@
-import React, { Component} from 'react';
-import './Menu.css'
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import './Header.css'
 
 /**
  * @author: Suelany Brito
- * Class: Menu
+ * Class: Header
  * Definition of menu elements and design
  */
 
-class Menu extends Component {
+class Header extends Component {
     render() {
         return (
             <div className="container-fluid p-0">
                 <nav className="navbar navbar-expand-md navbar-custom">
-                    <a className="navbar-brand" href="#">
-                        LOGO<colorO className="navbar-custom">HERE</colorO>
+                    <a >
+                        <Link className="navbar-brand" to="/">LOGO<colorO className="navbar-custom">HERE</colorO></Link>
                     </a>
 
                     <button className="navbar-toggler line custom-toggler" type="button" data-toggle="collapse" data-target="#iconMenu"
@@ -33,8 +34,8 @@ class Menu extends Component {
                                 <a className="dropdown-item" href="PAGE 1">PAGE 1</a>
                                 <a className="dropdown-item" href="PAGE 2">PAGE 2</a>
                             </div>
-                            <a className="nav-item nav-link" href="RESUME">Resume</a>&nbsp;
-                            <a className="nav-item nav-link" href="PAGE3">Page 3</a>&nbsp;
+                            <Link className="nav-item nav-link" to="/Resume">Resume</Link>&nbsp;
+                            <Link className="nav-item nav-link" to="/Page3">Page 3</Link>&nbsp;
                         </div>
                     </section>
 
@@ -44,4 +45,4 @@ class Menu extends Component {
         );
     }
 }
-export default Menu;
+export default Header;

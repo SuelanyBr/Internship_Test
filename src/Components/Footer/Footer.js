@@ -1,15 +1,15 @@
 import React, { Component} from 'react';
 
-//import './Footer.css'
+import './Footer.css'
 
 class Footer extends Component {
     render(){
         return(
-            <div className="container">
-                <div className="row text-center d-flex align-items-center">
+            <div className="container-fluid p-0 footer ">
+                <div className="container-fluid p-0 row text-center d-flex align-items-center ">
                     <div className="col-md py-5">
                         <ul className="list-group mb-0">
-                            <li className="list-group-item border-0"><img src='./LogoUpplify.jpg' /></li>
+                            <li className="list-group-item border-0"><img src="../../Images/LogoUpplify.jpg" /></li>
                             <li className="list-group-item border-0"> © Upplify 2018 </li>
                             <li className="list-group-item border-0"> Registered </li>
                             <li className="list-group-item border-0"> company in Brazil </li>
@@ -56,7 +56,7 @@ class Footer extends Component {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-md py-5 container pt-3 footer text-black bg-transparent">
+                    <div className="col-md py-5 container pt-3 bg-transparent">
 
                         <ul className="list-inline mb-0">
                             <li className="list-inline-item bg-white rounded-circle">
