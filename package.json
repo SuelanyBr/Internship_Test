@@ -18,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "publish": "surge -p C:/Users/Suela/Desktop/InternshipTest/build -d internshiptest-suh.surge.sh"
   },
   "eslintConfig": {
     "extends": "react-app"

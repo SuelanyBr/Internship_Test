@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import Header from "../Components/Sections/Header/Header";
+import ProfilePage from "../Components/Sections/Profile_Page/ProfilePage";
 import Footer from "../Components/Footer/Footer";
 import './Main.css'
 import {Link} from "react-router-dom";
@@ -28,17 +28,17 @@ class Main extends Component {
                                 <div className="collapse navbar-collapse justify-content-end btn" id="iconMenu">
                                     <div className="navbar-nav ml-auto dropdown">
                                         <button
-                                        className="nav-item nav-link btn bg-transparent dropdown-toggle text-left"
+                                        className="nav-item nav-link btn bg-transparent dropdown-toggle text-right"
                                         type="button" id="dropdownHome" data-toggle="dropdown"
                                         aria-haspopup="true" aria-expanded="false">
                                         Home
                                     </button>&nbsp;
                                         <div className="dropdown-menu" aria-labelledby="dropdownHome">
-                                        <a className="dropdown-item text-lef" href="#">PAGE 1</a>
-                                        <a className="dropdown-item text-left" href="#">PAGE 2</a>
+                                        <a className="dropdown-item text-right" href="#">PAGE 1</a>
+                                        <a className="dropdown-item text-right" href="#">PAGE 2</a>
                                     </div>
-                                        <Link className="nav-item nav-link text-left" to="/Resume">Resume</Link>&nbsp;
-                                        <Link className="nav-item nav-link text-left" to="/Page3">Page 3</Link>&nbsp;
+                                        <Link className="nav-item nav-link text-right" to="/Resume">Resume</Link>&nbsp;
+                                        <Link className="nav-item nav-link text-right" to="/Definition">Page 3</Link>&nbsp;
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@ class Main extends Component {
                             </div>
                         </div>
                     </div>
-                        <Header/>
+                        <ProfilePage/>
                         <Car_Img/>
                         <Section3/>
                     </div>

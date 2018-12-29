@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import './Header.css'
+import './ProfilePage.css'
 
-class Header extends Component {
+class ProfilePage extends Component {
     render() {
         return (
             <div className="section">
@@ -50,4 +50,4 @@ class Header extends Component {
         );
     }
 }
-export default Header;
+export default ProfilePage;

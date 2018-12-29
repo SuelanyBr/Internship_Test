@@ -12,7 +12,7 @@ const routing = (
         <div>
             <Route exact path="/" component={Main}/>
             <Route path="/Resume" component={Resume}/>
-            <Route path="/Page3" component={Page3}/>
+            <Route path="/Definition" component={Page3}/>
         </div>
     </Router>
 )

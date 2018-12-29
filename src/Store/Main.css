@@ -130,6 +130,7 @@ h2, .h2 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     line-height: 1.625rem;
+    color: white;
 }
 
 
@@ -179,20 +180,13 @@ a.size-lap{
 }
 
 .navbar .navbar-toggler {
-    width: 37px;
-    height: 27px;
     outline: 0;
     cursor: pointer;
-
 }
 
-.section-full-page > .content,
-.section-full-page > .footer {
+.section-full-page > .content{
     position: relative;
     z-index: 4;
-}
-
-.section-full-page > .content {
     min-height: calc(100vh - 80px);
 }
 
