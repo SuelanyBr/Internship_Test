@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af288ab1-5806-4673-8ae9-dd638d9cd4fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Sections/Car_Images/Car_Img.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sections/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Sections/Section3_Cards/Section3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Store/Main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sections/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Page3/Page3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Page3/Page3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/RASCUNHO/Buttons/Button_Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Resume.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/RASCUNHO/Buttons/Button_Home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/RASCUNHO/Logo/LogoText.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/RASCUNHO/Logo/LogoText.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/RASCUNHO/rascunho.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/RASCUNHO/rascunho.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Resume/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Resume/Resume.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/LogoUpplify.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Store/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Store/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -123,7 +100,7 @@
           <entry key="html" value="95" />
           <entry key="js" value="8752" />
           <entry key="jsx" value="6" />
-          <entry key="txt" value="192" />
+          <entry key="txt" value="204" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -132,7 +109,7 @@
           <entry key="HTML" value="95" />
           <entry key="JSX Harmony" value="6" />
           <entry key="JavaScript" value="8752" />
-          <entry key="PLAIN_TEXT" value="210" />
+          <entry key="PLAIN_TEXT" value="222" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -191,7 +168,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/Resume/Resume.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
+            <state relative-caret-position="153">
               <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
@@ -417,7 +394,7 @@
       <workItem from="1545927521617" duration="19712000" />
       <workItem from="1545963567824" duration="3142000" />
       <workItem from="1545974320024" duration="47000" />
-      <workItem from="1546000320425" duration="40416000" />
+      <workItem from="1546000320425" duration="40816000" />
     </task>
     <task id="LOCAL-00001" summary="edit gitignore">
       <created>1545707981679</created>
@@ -468,20 +445,28 @@
       <option name="project" value="LOCAL" />
       <updated>1545939506502</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="- Project organization&#10;- Enhancement of footer and header design&#10;- Addition of some sections">
+      <created>1546043283286</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546043283401</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151587000" />
+    <option name="totallyTimeSpent" value="151987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="537" y="0" width="748" height="701" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="2" weight="0.8630952" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49925596" visible="true" weight="0.9118166" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49925596" weight="0.9118166" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50074404" side_tool="true" weight="0.19344263" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -509,7 +494,8 @@
     <MESSAGE value="Edit logo and text of menu" />
     <MESSAGE value="Refactory - Use bootstrap to get a responsive website&#10;Create Menu and Footer" />
     <MESSAGE value="add React-router and refactory code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add React-router and refactory code" />
+    <MESSAGE value="- Project organization&#10;- Enhancement of footer and header design&#10;- Addition of some sections" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Project organization&#10;- Enhancement of footer and header design&#10;- Addition of some sections" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../src/src/App.js">
@@ -798,7 +784,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Resume/Resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
+        <state relative-caret-position="153">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
